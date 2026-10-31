@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footy OS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="desktop">
+        <div class="window" id="welcome-window">
+            <div class="window-header">
+                <span>WELCOME TO CITY OS</span>
+                <button class="close-btn" data-window="welcome-window">×</button>
+            </div>
+            <div class="window-body">
+                <h3>Welcome, Cityzens!!!</h3>
+                <p>This is your ultimate Manchester City command center. Explore upcoming fixtures, club history, matchday photos, and stadium tunes right from your desktop.</p>
+                <p><em>Click the icons in the bottom dock to launch apps, and drag windows anywhere you like!</em></p>
+                <button id="welcome-action-btn">LET'S GOOO!!</button>
+            </div>
+        </div>
+        <div id="taskbar">
+            <span id="os-title">FOOTY OS</span>
+            <button class="taskbar-btn" data-window="match-window">⚽</button>
+            <button class="taskbar-btn" data-window="history-window">📰</button>
+            <button class="taskbar-btn" data-window="music-window">🎧</button>
+            <button class="taskbar-btn" data-window="gallery-window">📷</button>
+            <button class="taskbar-btn" data-window="settings-window">⚙️</button>
+        </div>
+    </div>
+
+    
+    <div class="window" id="match-window">
+        <div class="window-header">
+            <span>ManCity_Fixtures.app</span>
+            <button class="close-btn" data-window="match-window">×</button>
+        </div>
+        <div class="window-body">
+            <h3>Upcoming Match Center ⚽</h3>
+            <div class="fixture-card">
+                <p><strong>Next Fixture:</strong> Man City vs Rival FC</p>
+                <p>Competition: Premier League 🏆</p>
+                <p>Status: <span class="live-badge">Matchday Approaching</span></p>
+            </div>
+        </div> 
+    </div>
+
+
+    <div class="window" id="history-window">
+        <div class="window-header">
+            <span>history.book.exe</span>
+            <button class="close-btn" data-window="history-window">×</button>
+        </div>
+        <div class="window-body">
+            <h3>Club Heritage & Glory</h3>
+            <p>Founded: 1880 (St. Mark's West Gorton)</p>
+            <p>Iconic Era: Treble Winners & Modern Era Dominance</p>
+        </div>
+    </div>
+    <div class="window" id="music-window">
+        <div class="window-header">
+            <span>Spotify_Mini.app</span>
+            <button class="close-btn" data-window="music-window">×</button>
+        </div>
+        <div class="window-body">
+            <h3>Stadium Spotify 🎵</h3>
+            <div class="spotify-embed-container">
+                <iframe 
+                    src="https://open.spotify.com/embed/playlist/6XaD6Q3NuLOEyrYXPaMKiR?utm_source=generator" 
+                    width="100%" 
+                    height="152" 
+                    frameBorder="0" 
+                    allowfullscreen="" 
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div> 
+    </div>
+    <div class="window" id="gallery-window">
+        <div class="window-header">
+            <span>Team_Tactics.app</span>
+            <button class="close-btn" data-window="gallery-window">×</button>
+        </div>
+        <div class="window-body">
+            <h3>Matchday Memories 🖼️</h3>
+            <div class="gallery-container">
+                <img id="gallery-img" src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?q=80&w=400&auto=format&fit=crop" alt="Man City Photo">
+                <p id="photo-caption">Etihad Stadium Under Lights</p>
+                <div class="gallery-controls">
+                    <button id="prev-photo-btn">◀ Prev</button>
+                    <button id="next-photo-btn">Next ▶</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="window" id="settings-window">
+        <div class="window-header">
+            <span>OS_Settings.app</span>
+            <button class="close-btn" data-window="settings-window">×</button>
+        </div>
+        <div class="window-body">
+            <h3>Customization ⚙️</h3>
+            <p>Wallpaper: <button id="wallpaper-btn">Switch Wallpaper</button></p>
+            <p>Theme Mode: <button id="theme-btn">Toggle Dark / Light</button></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
