@@ -21,7 +21,7 @@ Welcome to **CITY OS** your ultimate, custom built desktop environment designed 
 
 * **HTML5**
 * **CSS3**
-* **Vanilla JavaScript **
+* **Vanilla JavaScript**
 
 ---
 
