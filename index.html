@@ -7,65 +7,73 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <div id="desktop">
+        <div id="topbar">
+            <div id="topbar-brand">
+                <span id="os-logo-text">City OS</span>
+            </div>
+                <div id="topbar-clock">
+                    <span id="live-time">--:--:--</span>
+                    <span id="live-date">--/--/----</span>
         <div class="window" id="welcome-window">
             <div class="window-header">
                 <span>WELCOME TO CITY OS</span>
                 <button class="close-btn" data-window="welcome-window">×</button>
             </div>
             <div class="window-body">
-                <h3>Welcome, Cityzens!!!</h3>
-                <p>This is your ultimate Manchester City command center. Explore upcoming fixtures, club history, matchday photos, and stadium tunes right from your desktop.</p>
+                <h3>Welcome,Cityzens!!!</h3>
+                <p>This is the ultimate Manchester City web OS.Explore upcoming fixtures, club history, matchday photos, and stadium tunes right from your desktop.</p>
                 <p><em>Click the icons in the bottom dock to launch apps, and drag windows anywhere you like!</em></p>
                 <button id="welcome-action-btn">LET'S GOOO!!</button>
             </div>
         </div>
         <div id="taskbar">
-            <span id="os-title">FOOTY OS</span>
+            <span id="os-title"><strong>CITY OS</strong>:</span>
             <button class="taskbar-btn" data-window="match-window">⚽</button>
             <button class="taskbar-btn" data-window="history-window">📰</button>
             <button class="taskbar-btn" data-window="music-window">🎧</button>
             <button class="taskbar-btn" data-window="gallery-window">📷</button>
-            <button class="taskbar-btn" data-window="settings-window">⚙️</button>
+            <button class="taskbar-btn" data-window="settings-window">👥</button>
         </div>
     </div>
-
-    
     <div class="window" id="match-window">
         <div class="window-header">
-            <span>ManCity_Fixtures.app</span>
+            <span>Fixture App</span>
             <button class="close-btn" data-window="match-window">×</button>
         </div>
-        <div class="window-body">
-            <h3>Upcoming Match Center ⚽</h3>
+        <div class="window-body"id="match-center-body">
+            <h3>Upcoming Fixture </h3>
             <div class="fixture-card">
-                <p><strong>Next Fixture:</strong> Man City vs Rival FC</p>
-                <p>Competition: Premier League 🏆</p>
-                <p>Status: <span class="live-badge">Matchday Approaching</span></p>
+                <p><strong>Man City v/s RB Leipzig</strong> | Premier League</p>
+                <p><em>Thu,5 Nov,1:30 AM (IST)</em><p>
+                <p><strong>Man City v/s Nottingham Forest</strong> | Premier League</p>
+                <p><em>Sat,7 Nov,11:00 PM (IST)</em><p>
+                 <p><strong>Man City v/s Fulham</strong> | Premier League</p>
+                <p><em>Sat,21 Nov,06:00 PM (IST)</em><p>      
+                 <p><strong>Man City v/s Napoli</strong> | UCL</p>
+                <p><em>Wed,25 Nov,1:30 AM (IST)</em><p>   
             </div>
         </div> 
     </div>
-
-
     <div class="window" id="history-window">
         <div class="window-header">
-            <span>history.book.exe</span>
+            <span>About Man City</span>
             <button class="close-btn" data-window="history-window">×</button>
         </div>
         <div class="window-body">
-            <h3>Club Heritage & Glory</h3>
-            <p>Founded: 1880 (St. Mark's West Gorton)</p>
-            <p>Iconic Era: Treble Winners & Modern Era Dominance</p>
+            <h3>Manchester City Football Club</h3>
+            <p><strong>Manchester City FC</strong> is an english Football club Founded in 1880 as St. Mark's West Gorton in Manchester.</p>
+            <p><strong>Titles:</strong>1X UCL;10X PL;1X UEFA Super Cup;8X FA Cup;1X FIFA CWC;7X Community Shield;9X League Cup.
+            <p><strong>Other Achievements:</strong>Treble Winners(2022/23);Centurions(2017/18);Four in a row(2020/21-2023/24)</p>     
         </div>
     </div>
     <div class="window" id="music-window">
         <div class="window-header">
-            <span>Spotify_Mini.app</span>
+            <span>Spotify</span>
             <button class="close-btn" data-window="music-window">×</button>
         </div>
         <div class="window-body">
-            <h3>Stadium Spotify 🎵</h3>
+            <h3>Stadium Vibes!! </h3>
             <div class="spotify-embed-container">
                 <iframe 
                     src="https://open.spotify.com/embed/playlist/6XaD6Q3NuLOEyrYXPaMKiR?utm_source=generator" 
@@ -77,37 +85,32 @@
                     loading="lazy">
                 </iframe>
             </div>
-        </div> 
+        </div>     
     </div>
     <div class="window" id="gallery-window">
         <div class="window-header">
-            <span>Team_Tactics.app</span>
+            <span>Gallery</span>
             <button class="close-btn" data-window="gallery-window">×</button>
         </div>
-        <div class="window-body">
-            <h3>Matchday Memories 🖼️</h3>
-            <div class="gallery-container">
-                <img id="gallery-img" src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?q=80&w=400&auto=format&fit=crop" alt="Man City Photo">
-                <p id="photo-caption">Etihad Stadium Under Lights</p>
-                <div class="gallery-controls">
-                    <button id="prev-photo-btn">◀ Prev</button>
-                    <button id="next-photo-btn">Next ▶</button>
+        <div class="window-body"id="gallery-window-body">
+            <h3>Treble Winners</h3>
+            <div class="carousel-container">
+                <img id="gallery-img" src="https://i.ibb.co/tP2ZhNRv/images-8.jpg" alt="Man City Photo">
+                <div class="carousle-caption"id="carousle-caption">2022/2023 season</div>
+                </div>             
                 </div>
             </div>
         </div>
-    </div>
+    </div>                                     
     <div class="window" id="settings-window">
         <div class="window-header">
-            <span>OS_Settings.app</span>
+            <span>Squad</span>
             <button class="close-btn" data-window="settings-window">×</button>
         </div>
         <div class="window-body">
-            <h3>Customization ⚙️</h3>
-            <p>Wallpaper: <button id="wallpaper-btn">Switch Wallpaper</button></p>
-            <p>Theme Mode: <button id="theme-btn">Toggle Dark / Light</button></p>
-        </div>
+            <h3>Starting XI (2026/27)</h3>
+            <img id="squad" src="https://i.ibb.co/ZR29mMgG/images-7.jpg">
+        </div>                        
     </div>
-
     <script src="script.js"></script>
-</body>
-</html>
+</body> jjjjjjjkjjjjjjjjjjjjjjjjjjkkkkkkkooooooooojjjjhhh
