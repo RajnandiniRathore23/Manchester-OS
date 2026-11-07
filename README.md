@@ -36,4 +36,9 @@ An internet connection is required for external content i.e. the embedded Spotif
 I wanted to experiment with making a desktop like interface using just HTML, CSS and JavaScript. Rather than building a normal football information website, I tried arranging the different features into separate windows so that users could open, close and move them around.
 There are still things that can be improved, but building this project helped me practise working with DOM elements, CSS positioning, event listeners and JavaScript date and time functions.
 
+<img width="1917" height="1008" alt="image" src="https://github.com/user-attachments/assets/445fc80a-51ec-47bc-98de-f0949696fe47" />
+
+
+
+<img width="1916" height="996" alt="image" src="https://github.com/user-attachments/assets/e109ddf3-f145-4f45-a2b6-d51bd06a651e" />
 
