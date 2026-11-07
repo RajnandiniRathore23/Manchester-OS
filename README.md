@@ -1,38 +1,39 @@
 # CITY OS
 
-Welcome to **CITY OS** your ultimate, custom built desktop environment designed exclusively for Cityzens!
-
+Welcome to **CITY OS** a OS built exclusisvely for manchester city
 ---
 
-## What's Inside?
+## Features
 
-* **Upcoming matches widget**: A mini widget anchored to the top right that automatically pulls upcoming Manchester City fixtures via the ESPN API.
-* **Glassmorphic Desktop Environment**: Features a dark aesthetic with signature Manchester City Sky Blue `#6CABDD`(not sure but ts one matched the most) hues
-* **Top Status Bar**: Keeps track of the live system time and date.
+**Upcoming matches**: A mini widget that shows man citys upcoming matches with a coutdown for the kick off of the next match.
+* **Time & Date**: Keeps track of the live system time and date.
 * **Window Management**: 
-  * Windows open damn dead center on your screen every time you launch them.
-  * Fully draggable header bars so you can arrange your workspace.
-* **Matchday Gallery App**: Contains the most aura holding,iconic man city Picture.
-* **Bottom Taskbar**: Quick launch buttons to toggle apps.
+  * Windows open top center on your screen every time you launch them.
+  * Fully draggable header bars so you can arrange your workspace .
+* **Gallery App**: Contains a treble winner picture.
+* **Bottom Taskbar**: Quick launch buttons to open apps.
 * **Mini music player**:Mini Spotify player embeded with man city chants playlist. 
 ---
 
-##  Tech used XD         
+##  Tech used         
 
-* **HTML5**
-* **CSS3**
-* **Vanilla JavaScript**
+* **HTML**
+* **CSS**
+* **JavaScript**
 
 ---
 
 ## Getting Started
+You don't need to install any additional packages to run the project.
+1.	Download or clone the project.
+2.	Open the project folder.
+3.	Make sure the images are in their correct locations.
+4.	Open index.html file in a web browser.
+The desktop interface should load in the browser.
+An internet connection is required for external content i.e. the embedded Spotify player.
 
-1. Clone or download this repo to your local sys.
-2. Ensure you have the following three core files in your project directory:
-   * `index.html`
-   * `style.css`
-   * `script.js`
-3. Open `index.html` in your web browser (or run it using a live server extension ).
+## About
+I wanted to experiment with making a desktop like interface using just HTML, CSS and JavaScript. Rather than building a normal football information website, I tried arranging the different features into separate windows so that users could open, close and move them around.
+There are still things that can be improved, but building this project helped me practise working with DOM elements, CSS positioning, event listeners and JavaScript date and time functions.
 
----
 
